@@ -2,7 +2,7 @@
 - Implementations of **SRDRM** and **SRDRM-GAN** for underwater image super-resolution
 - Simplified implementation of SRGAN, ESRGAN, EDSRGAN, ResNetSR, SRCNN, and DSRCNN
 - Implementation: TensorFlow >= 1.11.0, Keras >= 2.2, and Python 2.7
-- *This repository contains module at the time of publication; sub-sequent updates can be found [here](https://github.com/xahidbuffon/srdrm)* 
+- *This repository contains modules at the time of publication; sub-sequent updates can be found [here](https://github.com/xahidbuffon/srdrm)* 
   
 ![img1](/data/fig1b.jpg)
 
