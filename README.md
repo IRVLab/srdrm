@@ -2,8 +2,10 @@
 - Implementations of **SRDRM** and **SRDRM-GAN** for underwater image super-resolution
 - Simplified implementation of SRGAN, ESRGAN, EDSRGAN, ResNetSR, SRCNN, and DSRCNN
 - Implementation: TensorFlow >= 1.11.0, Keras >= 2.2, and Python 2.7
+- *This repository contains module at the time of publication; sub-sequent updates can be found [here](https://github.com/xahidbuffon/srdrm)* 
   
 ![img1](/data/fig1b.jpg)
+
 
 #### Pointers
 - Paper: https://arxiv.org/pdf/1909.09437.pdf
@@ -18,6 +20,7 @@
 	  organization={IEEE}
 	}
 	```
+
 #### Usage
 - Download the data, setup data-paths in the training scripts
 - Use the individual scripts for training 2x, 4x, 8x SISR models 
@@ -30,6 +33,7 @@
 	- Output: data/output/ 
 - A few saved models are provided in checkpoints/saved/
 - Use the [measure.py](measure.py) for quantitative analysis based on UIQM, SSIM, and PSNR 
+
 
 #### Acknowledgements
 - https://github.com/Mulns/SuperSR
